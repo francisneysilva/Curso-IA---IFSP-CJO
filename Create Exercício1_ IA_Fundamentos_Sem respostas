@@ -1,0 +1,31 @@
+## 15 Perguntas sobre IA, ML e seus tipos de aprendizado (sem respostas):
+
+1. Qual a principal diferença entre Inteligência Artificial (IA), Machine Learning (ML) e Deep Learning (DL)?
+
+2. Descreva o processo de aprendizado supervisionado, dando um exemplo.
+
+3. Quais tipos de problemas são melhor resolvidos com aprendizado supervisionado?
+
+4. Explique a diferença entre classificação e regressão.
+
+5. O que é overfitting e como evitá-lo?
+
+6. Descreva o aprendizado não-supervisionado e cite dois algoritmos.
+
+7. Como o aprendizado não-supervisionado descobre padrões ocultos?
+
+8. Diferencie clustering e redução de dimensionalidade.
+
+9. Como o aprendizado por reforço difere dos outros tipos?
+
+10. Quais são os três componentes principais do aprendizado por reforço?
+
+11. Cite aplicações do aprendizado por reforço.
+
+12. Explique o "exploration-exploitation trade-off".
+
+13. Qual o papel dos hiperparâmetros?
+
+14. Como a qualidade dos dados afeta o desempenho?
+
+15. Cite uma vantagem e uma desvantagem de cada tipo de aprendizado (supervisionado, não-supervisionado e por reforço).
