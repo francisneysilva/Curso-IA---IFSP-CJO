@@ -1,0 +1,78 @@
+## 15 Perguntas e Respostas sobre IA, ML e seus tipos de aprendizado:
+
+**1. Pergunta:** Qual a principal diferença entre Inteligência Artificial (IA), Machine Learning (ML) e Deep Learning (DL)?
+
+**Resposta:** IA é um conceito amplo que engloba a criação de máquinas capazes de simular inteligência humana. ML é um subconjunto da IA que foca em algoritmos que permitem que os computadores aprendam com os dados sem serem explicitamente programados. DL é um subconjunto do ML que utiliza redes neurais artificiais com múltiplas camadas para extrair características complexas dos dados.
+
+
+**2. Pergunta:** Descreva o processo de aprendizado supervisionado, dando um exemplo.
+
+**Resposta:** O aprendizado supervisionado utiliza dados rotulados (com entrada e saída desejada) para treinar um modelo. O modelo aprende a mapear as entradas às saídas correspondentes.  Exemplo: Treinar um modelo para classificar imagens de gatos e cães, fornecendo imagens rotuladas como "gato" ou "cão".
+
+
+**3. Pergunta:** Quais tipos de problemas são melhor resolvidos com aprendizado supervisionado?
+
+**Resposta:** Problemas de classificação (ex: spam vs. não-spam) e regressão (ex: previsão de preços de ações).
+
+
+**4. Pergunta:** Explique a diferença entre classificação e regressão.
+
+**Resposta:** Classificação prevê uma variável categórica (ex: gato, cão), enquanto regressão prevê uma variável contínua (ex: temperatura, preço).
+
+
+**5. Pergunta:** O que é overfitting e como evitá-lo?
+
+**Resposta:** Overfitting ocorre quando o modelo aprende os dados de treinamento muito bem, mas generaliza mal para novos dados.  Pode ser evitado com técnicas como validação cruzada, regularização e simplificação do modelo.
+
+
+**6. Pergunta:** Descreva o aprendizado não-supervisionado e cite dois algoritmos.
+
+**Resposta:** O aprendizado não-supervisionado utiliza dados não rotulados para descobrir padrões e estruturas. Exemplos de algoritmos: k-means (clustering) e análise de componentes principais (PCA).
+
+
+**7. Pergunta:** Como o aprendizado não-supervisionado descobre padrões ocultos?
+
+**Resposta:** Ao identificar similaridades e diferenças nos dados não rotulados, agrupando-os (clustering) ou reduzindo a dimensionalidade para facilitar a visualização e análise.
+
+
+**8. Pergunta:** Diferencie clustering e redução de dimensionalidade.
+
+**Resposta:** Clustering agrupa dados similares. Redução de dimensionalidade reduz o número de variáveis mantendo a informação mais importante.
+
+
+**9. Pergunta:** Como o aprendizado por reforço difere dos outros tipos?
+
+**Resposta:** O aprendizado por reforço envolve um agente que interage com um ambiente, tomando ações e recebendo recompensas ou penalidades. Ele aprende através de tentativa e erro a maximizar a recompensa cumulativa.
+
+
+**10. Pergunta:** Quais são os três componentes principais do aprendizado por reforço?
+
+**Resposta:** Agente, ambiente e recompensa.
+
+
+**11. Pergunta:** Cite aplicações do aprendizado por reforço.
+
+**Resposta:** Jogos (AlphaGo), robótica, otimização de sistemas.
+
+
+**12. Pergunta:** Explique o "exploration-exploitation trade-off".
+
+**Resposta:** O agente precisa balancear explorar novas ações (para descobrir melhores estratégias) e explorar ações que já sabe que são boas (para maximizar a recompensa imediata).
+
+
+**13. Pergunta:** Qual o papel dos hiperparâmetros?
+
+**Resposta:** Hiperparâmetros são parâmetros que controlam o processo de aprendizado, e precisam ser ajustados para otimizar o desempenho do modelo (ex: taxa de aprendizado, número de árvores em um Random Forest).
+
+
+**14. Pergunta:** Como a qualidade dos dados afeta o desempenho?
+
+**Resposta:** Dados ruidosos, incompletos ou tendenciosos levam a modelos imprecisos e com baixo desempenho, independente do tipo de aprendizado.
+
+
+**15. Pergunta:** Vantagem e desvantagem de cada tipo de aprendizado.
+
+**Resposta:**
+* **Supervisionado:** Vantagem: Alta precisão em problemas bem definidos. Desvantagem: Requer dados rotulados, que podem ser caros e difíceis de obter.
+* **Não-supervisionado:** Vantagem: Pode descobrir padrões inesperados. Desvantagem: Interpretação dos resultados pode ser complexa.
+* **Por Reforço:** Vantagem: Adequado para problemas sequenciais e complexos. Desvantagem: Treinamento pode ser lento e computacionalmente caro.
