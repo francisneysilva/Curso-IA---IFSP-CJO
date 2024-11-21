@@ -1,0 +1,19 @@
+O algoritmo de Machine Learning aprende a classificar os animais através de um processo chamado treinamento, que envolve várias etapas:
+
+1. **Coleta de Dados**: O primeiro passo é reunir um conjunto de dados que contenha exemplos de animais, com características relevantes (features) e suas respectivas classificações (rótulos). Por exemplo, para classificar porcos e cachorros, as características podem incluir comprimento do pelo, altura, peso e tipo de som.
+
+2. **Pré-processamento dos Dados**: Os dados coletados podem precisar de limpeza e transformação. Isso inclui lidar com valores ausentes, normalizar ou padronizar as características e converter variáveis categóricas em um formato que o algoritmo possa entender.
+
+3. **Divisão dos Dados**: Os dados são geralmente divididos em dois conjuntos: um para treinamento e outro para teste. O conjunto de treinamento é usado para ensinar o modelo, enquanto o conjunto de teste é utilizado para avaliar o desempenho do modelo em dados que ele nunca viu antes.
+
+4. **Escolha do Algoritmo**: Um algoritmo de Machine Learning é escolhido com base no tipo de problema. Para classificação binária, como distinguir entre porcos e cachorros, algoritmos como o LinearSVC (Support Vector Classifier) podem ser utilizados.
+
+5. **Treinamento do Modelo**: Durante o treinamento, o algoritmo analisa os dados de treinamento e aprende a associar as características dos animais às suas classificações. Ele ajusta seus parâmetros internos para minimizar a diferença entre suas previsões e as classificações reais.
+
+6. **Avaliação do Modelo**: Após o treinamento, o modelo é testado usando o conjunto de teste. Métricas como acurácia, precisão, recall e F1-score são usadas para avaliar o desempenho do modelo. Isso ajuda a entender quão bem o modelo generaliza para novos dados.
+
+7. **Ajuste e Melhoria**: Com base nos resultados da avaliação, o modelo pode ser ajustado. Isso pode incluir a escolha de um algoritmo diferente, a adição de mais dados, ou a modificação das características utilizadas.
+
+8. **Predição**: Uma vez que o modelo é considerado satisfatório, ele pode ser usado para prever a classificação de novos animais com base em suas características.
+
+Esse processo permite que o algoritmo aprenda padrões nos dados e faça previsões sobre novos exemplos, classificando-os corretamente como porcos ou cachorros.
