@@ -1,0 +1,33 @@
+# Importa a classe LinearSVC para classificação linear
+from sklearn.svm import LinearSVC
+
+# Importa função para dividir dados de treino e teste
+from sklearn.model_selection import train_test_split
+
+# Define características dos animais: [pelo longo, perna curta, faz "au au"]
+X = [
+    [0, 1, 0],  # porco1: sem pelo longo, perna curta, não late
+    [0, 1, 1],  # cachorro1: sem pelo longo, perna curta, late
+    [1, 0, 1],  # cachorro2: com pelo longo, perna não curta, late
+    [0, 1, 0],  # porco2: sem pelo longo, perna curta, não late
+    [1, 1, 1],  # cachorro3: com pelo longo, perna curta, late
+    [0, 0, 0]   # porco3: sem pelo longo, perna não curta, não late
+]
+
+# Define rótulos: 1 para porcos, 0 para cachorros
+y = [1, 0, 0, 1, 0, 1]
+
+# Cria modelo de máquina de vetores de suporte linear
+model = LinearSVC()
+
+# Treina o modelo usando todas as características e rótulos
+model.fit(X, y)
+
+# Cria um animal misterioso com características específicas
+animal_misterioso = [[1, 1, 1]]  # tem pelo longo, perna curta, late
+
+# Prevê a classificação do animal misterioso
+predicao = model.predict(animal_misterioso)
+
+# Imprime a previsão: 0 para cachorro, 1 para porco
+print("Previsão do animal misterioso:", predicao[0])
